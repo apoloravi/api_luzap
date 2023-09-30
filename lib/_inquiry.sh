@@ -13,7 +13,7 @@ get_link_git() {
   print_banner
   printf "${WHITE} 💻 Insira o link do GITHUB do seu Canal Vem Fazer que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
-  read -p "> " link_git
+  read -p "> " link_git="https://github.com/apoloravi/api_luzap"
 }
 
 get_instancia_add() {
@@ -45,7 +45,7 @@ get_frontend_url() {
   print_banner
   printf "${WHITE} 💻 Digite o domínio do FRONTEND/PAINEL para a ${instancia_add}:${GRAY_LIGHT}"
   printf "\n\n"
-  read -p "> " frontend_url
+  read -p "> " frontend_url="app.adyahost.ovh"
 }
 
 get_backend_url() {
@@ -53,7 +53,7 @@ get_backend_url() {
   print_banner
   printf "${WHITE} 💻 Digite o domínio do BACKEND/API para a ${instancia_add}:${GRAY_LIGHT}"
   printf "\n\n"
-  read -p "> " backend_url
+  read -p "> " backend_url="api.adyahost.ovh"
 }
 
 get_frontend_port() {
